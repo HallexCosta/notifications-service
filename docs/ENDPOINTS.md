@@ -22,6 +22,7 @@ Body:
   "category": "social",
 }
 ```
+
 **Resposta**:  
 Status: 201 Created  
 Body: 
@@ -82,6 +83,7 @@ Body:
 |Nome| Descrição |
 |--- | --------- |
 |:recipientId | Id do recebedor  |
+
 **Resposta**:  
 Status: 200 OK  
 Body: 
@@ -99,6 +101,7 @@ Body:
 |Nome| Descrição |
 |--- | --------- |
 |:recipientId | Id do recebedor  |
+
 **Resposta**:  
 Status: 200 OK  
 Body: No body
@@ -111,6 +114,7 @@ Body: No body
 |Nome| Descrição |
 |--- | --------- |
 |:recipientId | Id do recebedor  |
+
 **Resposta**:  
 Status: 200 OK  
 Body: No body
@@ -123,6 +127,7 @@ Body: No body
 |Nome| Descrição |
 |--- | --------- |
 |:recipientId | Id do recebedor  |
+
 **Resposta**:  
 Status: 200 OK  
 Body: No body
