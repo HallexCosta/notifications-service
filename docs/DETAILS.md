@@ -1,4 +1,9 @@
-Acesse [aqui](../README.md) para voltar para README da aplicação.
+<a href="../README.md" style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 20px;">
+    <img src="./assets/images/arrow-left-solid.svg" width="24" height="24" />
+    Voltar
+</a>
+
+Deis decorators fornecidos pelo framework Nest.js como `@Get, @Post, @Patch, @Module, @Controller, @Injectable` a patterns utilizados como `Mapper, Factory e InMemoryRepository`.
 
 ### Aula 01
 Criamos um projeto em **Nest.js**, integramos com prisma, criamos a migration para criar uma tabela no banco de dados, configuramos o prisma para funcionar com **SQLite**.  
@@ -33,3 +38,42 @@ Por exemplo, quando eu possuo e trato os dados do envio da minha notificação d
 Entidades da aplicação podem conter validações e um formato asimilir de APIs, já o prisma models possui o formato mais puro possível para aquela objeto.  
 Um exemplo disso é a entidade `notification` da nossa aplicação, a notificação na camada de persistência de dados, não é a mesma coisa da notificação da camada da aplicação, ou seja, entities e `PrismaModels` podem parecer e ter atributos semelhantes, mais não são a mesma coisa.
 
+### Aula 04
+
+Sem sombra de dúvidas irei definir o video de finalização do evento como aula 04 :eye:, e digo mais, essa foi a aula que mais me chamou a atenção, nunca tinha testado o Kafka mais sempre tive muita curiosidade em entender como funciona o fluxo de mensageria assíncrona. Bom sem mais prolongamentos vamos falar do que se trata o Kafka.
+
+**Kafka** é um serviço de mensageria assíncrona que é utilizado comunicação entre aplicações, para que isso funcione ele é divido em 3 subvertentes. **Topics**, **Consumers** e **Producers**
+
+**Topics:** Em Apache Kafka, um tópico é uma categoria ou fonte para a qual são publicadas mensagens. Produtores escrevem dados para tópicos e consumidores leem de tópicos.
+
+No Kafka, o conceito central é um tópico. Produtores escrevem dados para tópicos e consumidores leem de tópicos.
+
+Um tópico é identificado por seu nome. As mensagens são matrizes de bytes que podem armazenar qualquer tipo de dados, então um tópico pode ser usado para alimentar qualquer tipo de dados ao Kafka.
+
+Por exemplo, um tópico pode ser usado para armazenar dados de log, como um barramento de mensagens para conectar microsserviços ou para armazenar eventos para event sourcing.
+
+Cada tópico é dividido em várias partições, o que permite o processamento paralelo dos dados pelos consumidores. Quando um produtor publica uma mensagem em um tópico, ela é anexada ao final da partição.
+
+Os consumidores podem ler de uma partição específica ou de todas as partições do tópico.
+
+Em resumo, os tópicos são o componente central do Kafka e são usados para armazenar e distribuir dados dentro de um cluster Kafka.
+
+**Consumers**:
+Em Apache Kafka, um consumidor é uma aplicação cliente que lê dados de tópicos Kafka. Os consumidores se inscrevem em um ou mais tópicos e consomem as mensagens publicadas nesses tópicos.
+
+Os consumidores leem os dados na ordem em que foram publicados no tópico, começando do início ou de um deslocamento específico. Eles também podem ler dados em tempo real à medida que são produzidos.
+
+Um consumidor pode pertencer a um grupo de consumidores, que é um grupo de consumidores que trabalham juntos para consumir os dados em um tópico. Cada consumidor em um grupo lê de uma partição diferente no tópico, permitindo o processamento paralelo dos dados.
+
+O uso de grupos de consumidores permite escalabilidade e tolerância a falhas no Kafka. Se um consumidor falhar, os dados que ele estava consumindo podem ser reequilibrados entre os consumidores restantes no grupo.
+
+Em resumo, os consumidores são aplicações cliente que leem dados de tópicos Kafka e podem pertencer a grupos de consumidores para escalabilidade e tolerância a falhas.
+
+**Producers**:
+Em Apache Kafka, um produtor é uma aplicação cliente que escreve dados em tópicos Kafka. Os produtores publicam dados em um ou mais tópicos e os dados são armazenados no tópico até serem consumidos pelos consumidores.
+
+Os produtores enviam mensagens para os brokers Kafka, que são os servidores em um cluster Kafka responsáveis por armazenar os dados e fornecê-los aos consumidores. Os produtores podem escolher em qual partição escrever dentro de um tópico ou permitir que o broker Kafka atribua a partição com base em uma estratégia de particionamento.
+
+Os produtores também podem especificar a chave para cada mensagem, que determina em qual partição a mensagem será escrita. Por exemplo, um produtor pode querer que todas as mensagens com a mesma chave sejam escritas na mesma partição.
+
+Em resumo, os produtores são aplicações cliente que escrevem dados em tópicos Kafka e enviam os dados para brokers Kafka para armazenamento e fornecimento aos consumidores.

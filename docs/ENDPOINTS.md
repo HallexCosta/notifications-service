@@ -1,4 +1,7 @@
-Acesse [aqui](../README.md) para voltar para README da aplicação.
+<a href="../README.md" style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 20px;">
+    <img src="./assets/images/arrow-left-solid.svg" width="24" height="24" />
+    Voltar
+</a>
 
 - [Send Notification](#send-notification-for-an-recipient)
 - [Get Recipient Notifications](#get-recipient-notifications)
