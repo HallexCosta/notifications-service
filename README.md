@@ -25,5 +25,8 @@ Acesse [aqui](./docs/ENDPOINTS.md) para obter as informações de todos os endpo
 - [x] Read Notification
 - [x] Unread Notification
 
+### Futuras Funcionalidades
+- [x] Get Category Notifications
+
 
 Accesse [aqui](./docs/DETAILS.md) para conhecer mais sobre o projeto em detalhes :eyes:  
