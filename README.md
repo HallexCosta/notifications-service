@@ -13,6 +13,7 @@ Projeto construído durando o evento, trata de um microserviço de notificaçõe
 - [x] [Jest](https://jestjs.io/)
 - [x] [Insominia](https://insomnia.rest/)
 - [x] [SQLlite](https://www.sqlite.org/index.html)
+- [x] [PostgreSQL](https://www.postgresql.org/)
 
 ### Funcionalidades
 
