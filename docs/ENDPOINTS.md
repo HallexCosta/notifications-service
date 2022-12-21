@@ -78,7 +78,7 @@ Body:
 
 #### Get Category Notifications
 
-**Endpoint**: GET /notifications/?category=social
+**Endpoint**: GET /notifications/?category=social  
 **Descrição**: Este endpoint fornece uma lista com todas as notificações de alguma categoria específica.  
 **Parâmetros**: 
 
