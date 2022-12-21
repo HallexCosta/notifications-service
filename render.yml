@@ -5,4 +5,4 @@ service:
   env: node
   rootDir: ./
   buildCommand: yarn; yarn build
-  startCommand: yarn start
+  startCommand: yarn start:prod
