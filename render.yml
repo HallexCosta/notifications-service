@@ -1,10 +1,7 @@
-previewsEnabled: true
 service:
 - type: web
   name: notifications-service
   branch: notifications-service
-  plan: standard
-  previewPlan: starter
   env: node
   rootDir: ./
   buildCommand: yarn; yarn build
