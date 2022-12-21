@@ -5,6 +5,7 @@
 
 - [Send Notification](#send-notification-for-an-recipient)
 - [Get Recipient Notifications](#get-recipient-notifications)
+- [Get Category Notifications](#get-category-notifications)
 - [Count Recipient Notifications](#count-recipient-notifications)
 - [Cancel Notification](#cancel-notification)
 - [Read Notification](#read-notification)
@@ -45,6 +46,45 @@ Body:
 |Nome| Descrição |
 |--- | --------- |
 |:recipientId | Id do recebedor  |
+
+**Resposta**:  
+Status: 200 OK  
+Body: 
+```json
+{
+  "notifications": [
+    {
+      "id": "notification-1",
+      "content": "Você tem uma nova solicitção de amizade!",
+      "category": "social",
+      "recipientId": "recipient-1",
+    },
+    {
+      "id": "notification-2",
+      "content": "Você tem uma nova solicitção de amizade!",
+      "category": "social",
+      "recipientId": "recipient-1",
+    },
+    {
+      "id": "notification-3",
+      "content": "Você tem uma nova solicitção de amizade!",
+      "category": "social",
+      "recipientId": "recipient-1",
+    },
+    ...
+  ]
+}
+```
+
+#### Get Category Notifications
+
+**Endpoint**: GET /notifications/?category=social
+**Descrição**: Este endpoint fornece uma lista com todas as notificações de alguma categoria específica.  
+**Parâmetros**: 
+
+|Nome| Descrição |
+|--- | --------- |
+|?category= | Nome da categoria  |
 
 **Resposta**:  
 Status: 200 OK  
