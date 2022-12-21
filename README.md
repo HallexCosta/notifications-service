@@ -27,6 +27,6 @@ Acesse [aqui](./docs/ENDPOINTS.md) para obter as informações de todos os endpo
 
 ### Futuras Funcionalidades
 - [x] Get Category Notifications
-
+- [x] Integrate with PostgreSQL
 
 Accesse [aqui](./docs/DETAILS.md) para conhecer mais sobre o projeto em detalhes :eyes:  
