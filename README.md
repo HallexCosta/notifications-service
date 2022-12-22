@@ -1,6 +1,7 @@
 # Ignite Lab 04 - Notifications Services
 
-Projeto construído durando o evento, trata de um microserviço de notificações que pode ser consumido por outros microserviços e/ou APIs. Separei os conteúdos com base nas aulas, sendo assim, para executar o projeto mais recente (feito durante o evento) use o da `aula04` ou o projeto com novas funcionalidades que adicionei, utilize `notifications-service` que está na raiz do repositório.
+Projeto construído durando o evento, trata de um microserviço de notificações que pode ser consumido por outros microserviços e/ou APIs. Separei os conteúdos com base nas aulas, sendo assim, para executar o projeto mais recente (feito durante o evento) use o da `aula04` ou o projeto com novas funcionalidades que adicionei, utilize `notifications-service` que está na raiz do repositório.  
+Você pode acessar o microserviço clicando [aqui](https://notifications-service-a6et.onrender.com/)
 
 ### Tecnologias
 
@@ -14,6 +15,7 @@ Projeto construído durando o evento, trata de um microserviço de notificaçõe
 - [x] [Insominia](https://insomnia.rest/)
 - [x] [SQLlite](https://www.sqlite.org/index.html)
 - [x] [PostgreSQL](https://www.postgresql.org/)
+- [x] [Render](https://render.com)
 
 ### Funcionalidades
 
