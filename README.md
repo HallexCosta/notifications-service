@@ -29,7 +29,8 @@ Acesse [aqui](./docs/ENDPOINTS.md) para obter as informações de todos os endpo
 - [x] Unread Notification
 
 ### Futuras Funcionalidades
-- [x] Get Category Notifications
-- [x] Integrate with PostgreSQL
+- [x] Adicionar Get Category Notifications
+- [x] Integrar com PostgreSQL
+- [x] Fazer deploy do [microserviço](https://notifications-service-a6et.onrender.com/)
 
 Accesse [aqui](./docs/DETAILS.md) para conhecer mais sobre o projeto em detalhes :eyes:  
