@@ -3,6 +3,10 @@
     Voltar
 </a>
 
+<br />
+
+Está área é dedicada exclusivamente para mostrar os endpoints da aplicação, você também pode testar acessando a [documentação da API](https://notifications-service-a6et.onrender.com/docs) feita com o Swagger UI
+
 - [Send Notification](#send-notification-for-an-recipient)
 - [Get Recipient Notifications](#get-recipient-notifications)
 - [Get Category Notifications](#get-category-notifications)
