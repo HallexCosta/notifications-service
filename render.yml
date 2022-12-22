@@ -1,6 +1,7 @@
 previewsEnabled: true
 service:
 - type: web
+  previewPlan: starter
   name: notifications-service
   previewPlan: starter
   branch: notifications-service
